@@ -1,0 +1,77 @@
+body{
+	margin: auto;
+	background-color: #fcc;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1{
+	background-color: #a00;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	border-bottom: 5px solid white;
+	margin-bottom: 10px;
+
+}
+
+h3{
+	background-color: #f88;
+	color: white;
+	margin: 0 6px;
+}
+
+p{
+	font-size: 14px;
+	margin: 7px 15px;
+	font-family: Arial;
+}
+
+#content{
+	width: 900px;
+	margin: auto;
+}
+
+#definicion{
+	margin: 0 20px 20px 20px;
+	border-left: 8px solid #f88;
+	border-right: 14px double #f88;
+}
+
+#definicion a{
+	text-decoration-style: none;
+	font-weight: bold;
+	color: black;
+}
+
+#definicion pre{
+	border: 2px solid #800;
+	margin: 0 30px;
+	background-image: url(logo_gnu.svg);
+	background-repeat: no-repeat;
+	background-size: 130px;
+	background-position: right;
+}
+
+#copyleft{
+	margin: 0 20px 20px 20px;
+	border-left: 8px solid #f88;
+	border-right: 14px double #f88;
+}
+
+#copyleft a{
+	text-decoration-style: none;
+	font-weight: bold;
+	color: black;
+}
+
+#footer{
+	text-align: right;
+	background-color: #a00;
+	color: white;
+	font-size: 12px;
+	padding-top: 10px;
+}

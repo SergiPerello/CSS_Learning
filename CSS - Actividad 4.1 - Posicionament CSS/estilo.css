@@ -1,0 +1,84 @@
+div h1{
+	margin: 0px;
+	font-size: 15px;
+	background-color: white;
+	font-family: Consolas;
+}
+
+h2{
+	color: white;
+	padding-left: 50px;
+	margin: 0px;
+}
+
+#content{
+	width: 600px;
+	margin: auto;
+	font-family: Verdana;
+	background-color: grey;
+}
+
+#title{
+	margin: 0px;
+}
+
+#images{
+	background-color: #E0751F;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+#images img{
+	width: 90px;
+}
+
+.left{
+	float: left;
+	position: relative;
+	left: 120px;
+}
+
+.center{
+	display: inline-block;
+}
+
+.right{
+	float: right;
+	position: relative;
+	right: 120px;
+}
+
+p{
+	padding-left: 80px;
+	padding-right: 80px;
+	text-align: justify;
+}
+
+p.first{
+	margin-top: 2px;
+}
+
+#cms{
+	background-color: #1CA375;
+	padding-bottom: 12px;
+}
+
+#drupal{
+	background-color: #3BA2DC;
+	padding-bottom: 12px;
+}
+
+#wordpress{
+	background-color: black;
+	color: white;
+	padding-bottom: 12px;
+}
+
+.arrow_up img{
+	width: 30px;
+	float: right;
+	position: relative;
+	bottom: 25px;
+	right: 80px;
+}

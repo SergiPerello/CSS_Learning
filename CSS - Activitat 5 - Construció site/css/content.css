@@ -1,0 +1,22 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #3a3a3a;
+}
+
+h3, h5{
+	font-family: 'LemonMilk';
+}
+
+h3{
+	color: #8aef8a;
+	font-size: 24px;
+}
+
+#content{
+	width: 1200px;
+	margin: auto;
+}

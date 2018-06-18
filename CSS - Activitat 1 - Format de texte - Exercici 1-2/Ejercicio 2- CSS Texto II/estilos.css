@@ -1,0 +1,58 @@
+#contenido{
+	width: 800px;
+}
+
+#parrafo1{
+	 margin: 0 50px 0 50px;
+	 font-style: italic;
+	 font-weight: bold;
+}
+
+#parrafo2{
+	background-color: yellow;
+	font-weight: bold;
+	color: blue;
+}
+
+#parrafo3{
+	text-decoration: underline;
+	color: blue;
+	background-color: lightblue;
+}
+
+h3{
+	background-color: #00cb02;
+	color: #d6f50b;
+	border-style: solid;
+	border-color: black;
+}
+
+.clase{
+	color: red;
+	font-style: italic;
+	font-weight: bold;
+	border-bottom: thin solid yellow;
+}
+
+#estiloLila{
+	letter-spacing: 2px;
+	background-color: #cd9bfe;
+	color: white;
+}
+
+.table{
+	border-style: solid;
+	display: table;
+	margin: auto;
+	width: 100%;
+}
+
+.row{
+	display: table-row;
+}
+
+.cell{
+	display: table-cell;
+	border: solid;
+	border-width: thin;
+}

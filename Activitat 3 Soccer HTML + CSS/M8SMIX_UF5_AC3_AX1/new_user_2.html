@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Soccer Manager</title>
+<link rel="icon" href="images/favicon.png" type="image/x-icon" />
+<link rel="stylesheet" href="css/estilo.css" type="text/css" />
+<link rel="stylesheet" href="css/menu.css" type="text/css" />
+<link rel="stylesheet" href="css/estilo_new_user2.css" type="text/css" />
+</head>
+
+<body>
+	<div id="nav_top">
+    	<table>
+        	<tr>
+            	<td>
+        			<a href="index.html"><img id="logo" src="images/logo.png" alt="logo" /></a>
+        		</td>
+               	<td id="user">
+                	<a href="new_user.html"><img src="images/new_user.png" class="iconoXL" alt="nuevo usuario" /></a>
+                    <a class="green" href="new_user.html">nuevo usuario</a>
+                    <a href="login.html"><img src="images/login.png" class="iconoXL" alt="entrar" /></a>
+                    <a class="blue" href="login.html">entrar</a>
+				</td>
+         	</tr>
+       	</table>
+    </div>
+    <div id="nav">
+        <table>
+            <tr>
+                <td id="jugadores">
+                   plantilla
+                </td>
+                <td id="estrategias">
+                    estrategia
+                </td>
+                <td id="entrenamientos">
+                	entrenamiento
+                </td>
+                <td id="traspasos">
+                    traspasos
+                </td>
+                <td id="finanzas">
+                	finanzas
+                </td>
+            </tr>
+        </table>
+   	</div>
+
+    <div class="content">
+        <form action="new_user_3.html">
+            <table>
+                <tr>
+                    <td colspan="5" class="title">2. Configura tu equipo</td>
+                </tr>
+                <tr>
+                    <td class="label left" style="width: 25%;"><label>Nombre del equipo</label></td>
+                    <td style="width: 25%;"><input type="text"></td>
+                    <td style="width: 25%;" class="label left"><label>Color de la camiseta</label></td>
+                    <td colspan="2"><input type="Color"></td>
+                </tr>
+                <tr>
+                    <td class="label left"><label>Estrategia</label></td>
+                    <td>
+                        <select>
+                            <option>Estrategia</option>
+                            <option>Ofensiva</option>
+                            <option>Defensiva</option>
+                        </select>
+                    </td>
+                    <td rowspan="2" class="label left"><label>Disposición táctica</label></td>
+                    <td rowspan="2">
+                        <p><input type="radio">4-3-3</p>
+                        <p><input type="radio">4-5-1</p>
+                        <p><input type="radio">3-4-3</p>
+                    </td>
+                    <td rowspan="2">
+                        <p><input type="radio">4-4-2</p>
+                        <p><input type="radio">3-5-2</p>
+                        <p><input type="radio">3-6-1</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label left"><label class="label left">Tipo de entrenamientos</label></td>
+                    <td style="height: 47px;">físicos<input type="range" min="fisicos" max="tecnicos">técnicos</td>
+                </tr>
+                <tr>
+                    <td class="label left"><label>Escudo</label></td>
+                    <td colspan="2" id="file"><input type="file"></td>
+                    <td colspan="2"><input type="submit" value="siguiente paso >>"></td>
+                </tr>
+            </table>
+
+            <div id="bars">
+                <div id="progress_bar_green"></div>
+            </div>
+
+        </form>
+    </div>
+
+    <div id="footer">
+    	<table>
+            <tr>
+                <td style="width:10%;">
+                </td>
+                <td style="width:23%;">
+                    <ul>
+                        <li><a href="condiciones.html">Condiciones de uso</a></li>
+                         <li><a href="conducta.html">Código de conducta</a></li>
+                         <li><a href="privacidad.html">Política de privacidad</a></li>
+                         <li><a href="mapa.html">Mapa Web</a></li>
+                         <li><a href="nosotros.html">Sobre nosotros</a></li>
+                         <li><a href="contacto.html">Contáctenos</a></li>
+                    </ul>
+                </td>
+                <td style="width:33%; text-align:center;">
+                    <a href="https://twitter.com" target="new"><img src="images/twitter.png" class="icono" alt="twitter" /></a>
+                    <a href="https://ca-es.facebook.com" target="new"><img src="images/facebook.png" class="icono" alt="facebook" /></a>
+                    <a href="https://myspace.com/" target="new"><img src="images/myspace.png" class="icono" alt="myspace" /></a>
+                </td>
+                <td style="width:33%; text-align:center;">
+                    <img src="images/fifa.png" class="imagen" alt="fifa" />
+                    <img src="images/pegi.jpg" class="imagen" alt="pegi" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4" style="width:100%; text-align:right; font-size:10px;">
+                	Designed and developed by marcasru © 2015-2016 Graphic Resources SL. All rights reserved
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

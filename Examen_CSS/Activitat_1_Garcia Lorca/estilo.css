@@ -1,0 +1,53 @@
+body{
+	width: 900px;
+	margin: auto;
+	background-color: #B19107;
+	font-size: 14px;
+}
+
+h1{
+	text-align: center;
+	text-shadow: 0 -2px 1px white;
+}
+
+a{
+	font-weight: bold;
+	color: black;
+}
+
+#titulo{
+	float: left;
+	width: 100%;
+}
+
+#descripcion{
+	float: left;
+	width: 75%;
+}
+
+#imagen{
+	background-image: url(new-york-1.jpg);
+	width: 24%;
+	height: 200px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	float: right;
+	background-position: right;
+}
+
+#poema{
+	font-family: Arial, cursive;
+	border-top: 1px solid black;
+	float: left;
+	width: 75%;
+}
+
+#poema pre a{
+	color: white;
+	text-decoration: none;
+}
+
+#poeta_NY{
+	text-decoration: underline;
+	text-decoration-style: dashed;
+}

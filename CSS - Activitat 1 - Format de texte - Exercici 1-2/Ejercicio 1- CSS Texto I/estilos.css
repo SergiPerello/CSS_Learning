@@ -1,0 +1,14 @@
+#parrafo1{
+	width: 60%;
+	border-style: dotted;
+	border-color: blue;
+}
+
+#parrafo2{
+	width: 300px;
+	margin: auto;
+	background-color: #fefeca;
+	border-style: double;
+	border-color: green;
+	padding: 5%;
+}

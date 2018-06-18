@@ -1,0 +1,145 @@
+*{
+	padding: 0px;
+	margin: 2px;
+	border: 0px solid red;
+}
+
+body{
+	background-color: #9c9c9c;
+}
+
+#content{
+	width: 850px;
+	margin: auto;
+	background-color: #018B8B;
+	border: 10px solid #314E3C;
+}
+
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	padding: 40px 0 20px 0;
+	
+}
+
+h1:hover{
+	animation-name: titol;
+	animation-duration: 1s;
+}
+
+@keyframes titol{
+	10%{color: #fff;}
+	25%{transform: rotate(20deg) skewX(45deg);}
+	35%{color: #000;}
+	75%{transform: rotate(-20deg) skewX(-45deg);}
+	90%{color: #fff;}
+}
+
+h2{
+	color: #fff;
+	font-family: "Verdana";
+	font-size: 16px;
+	padding: 0 0 8px 0;
+}
+
+p{
+	text-align: justify;
+}
+
+.cuadro{
+	float: left;
+	background-color: #314E3C;
+	padding: 6px;
+	margin: 10px 40px;
+}
+
+.cuadro_int{
+	float: left;
+	background-color: #7C8897;
+	padding: 10px;
+}
+
+.cuadro_ext{
+	float: left;
+	background-color: #018B8B;
+	padding: 30px;
+}
+
+#cuadro_int2{
+	float: left;
+	background-color: #314E3C;
+}
+
+#cuadro_int2 p{
+	float: left;
+	padding: 6px 10px;
+	width: 260px;
+	color: #fff;
+}
+
+#cuadro_int3{
+	float: left;
+	background-color: #314E3C;
+}
+
+#cuadro_int3 p{
+	float: left;
+	padding: 6px 10px;
+	color: #fff;
+	margin-right: 180px;
+}
+
+#tradicional{
+	float: left;
+	background-image: url(siames_tradicional.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 150px;
+	height: 150px;
+	border: 6px solid #314E3C;
+	outline: 5px solid #fff;
+	margin: 12px;
+}
+
+#tradicional:hover{
+	animation-name: gato;
+	animation-duration: 0.6s;
+}
+
+@keyframes gato{
+	20%{transform: scale(1.2);}
+}
+
+#moderno{
+	float: right;
+	background-image: url(siames_moderno.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 160px;
+	height: 150px;
+	border: 6px solid #314E3C;
+	outline: 5px solid #fff;
+	margin: 12px;
+}
+
+#moderno:hover{
+	opacity: 0.8;
+}
+
+#bosques{
+	position: absolute;
+	left: 65.5%;
+	background-image: url(bosques_noruega.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 150px;
+	height: 150px;
+	border: 6px solid #314E3C;
+	outline: 5px solid #fff;
+	margin: 12px;
+}
+
+#footer{
+	margin: 10px 40px;
+	font-size: 12px;
+}

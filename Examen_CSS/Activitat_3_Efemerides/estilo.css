@@ -1,0 +1,59 @@
+
+body{
+	font-family: Arial;
+	width: 900px;
+	margin: auto;
+}
+
+h1,h3{
+	margin: 1px;
+	padding: 1px;
+}
+
+h3{
+	border-bottom: 1px solid darkgrey;
+}
+
+p{
+	margin: 0px;
+	padding: 1px;
+}
+
+#titulo{
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	border-bottom: 1px solid darkgrey;
+}
+
+#bloques{
+	float: left;
+	margin: 0 100px;
+	padding: 0 20px;
+	border-left: 4px dashed grey;
+	border-right: 4px dashed grey;
+}
+
+#lateral_izq{
+	float: left;
+	width: 45%;
+	background-color: grey;
+}
+
+#lateral_izq div{
+	margin: 10px;
+	background-color: white;
+	padding: 2px;
+}
+
+#lateral_der{
+	float: right;
+	width: 45%;
+	background-color: grey;
+}
+
+#lateral_der div{
+	margin: 10px;
+	background-color: white;
+	padding: 2px;
+}

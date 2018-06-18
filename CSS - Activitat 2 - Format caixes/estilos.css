@@ -1,0 +1,168 @@
+.contenido{
+	width: 50%;
+}
+
+/*CLASE GENERICA PARA TODAS LAS ACTIVIDADES*/
+.actividad{
+	width: 120px;
+	margin: auto;
+	text-align: center;
+}
+
+/*ACTIVIDAD 1*/
+#a1interior{
+	background-color: yellow;
+	border-bottom: 40px solid lightblue;
+	margin: 0px;
+}
+
+#a1exterior{
+	background-color: yellow;
+	border-top: 15px solid lime;
+	border-bottom: 30px solid lime;
+	margin: 0px;
+}
+
+/*ACTIVIDAD 2*/
+#a2interior{
+	background-color: yellow;
+	border-bottom: 40px solid lightblue;
+	width: 80px;
+	margin: 0px;
+}
+
+#a2extra{
+	border-bottom: 60px solid lime;
+	border-right: 20px solid lime;
+	border-left: 20px solid lime;
+	margin: 0px;
+}
+
+/*ACTIVIDAD 3*/
+#a3interior{
+	background-color: yellow;
+	border-bottom: 40px solid lightblue;
+	border-right: 10px solid lightblue;
+	border-left: 10px solid lightblue;
+	margin: 0px;
+}
+
+#a3extra{
+	border-bottom: 40px solid lime;
+	border-right: 10px solid lime;
+	border-left: 10px solid lime;
+	margin: 0px;
+}
+
+/*ACTIVIDAD 4*/
+#a4interior{
+	background-color: yellow;
+	border-top: 20px solid lightblue;
+	border-bottom: 40px solid lightblue;
+	border-right: 10px solid lightblue;
+	border-left: 10px solid lightblue;
+	margin: 0px;
+}
+
+#a4extra{
+	border-bottom: 35px solid lime;
+	border-right: 10px solid lime;
+	border-left: 10px solid lime;
+	margin: 0px;
+}
+
+/*ACTIVIDAD 5*/
+#a5interior{
+	background-color: yellow;
+	border: 25px solid lightblue;
+	border-top: 30px solid lightblue;
+	border-bottom: 40px solid lightblue;
+	margin: 0px;
+}
+
+#a5extra{
+	border: 15px solid lime;
+	border-top: 0px;
+	margin: 0px;
+}
+
+/*ACTIVIDAD 6*/
+#a6interior{
+	background-color: yellow;
+	border-bottom: 30px solid lightblue;
+	width: 150px;
+	margin: 0px;
+}
+
+#a6extra{
+	border-bottom: 50px solid lime;
+	margin: 0px;
+}
+
+/*ACTIVIDAD 7*/
+#a7interior{
+	background-color: yellow;
+	border-bottom: 30px solid lightblue;
+	width: 130px;
+	margin: 0px;
+}
+
+#a7extra{
+	border-left: 20px solid lime;
+	border-bottom: 55px solid lime;
+	margin: 0px;
+}
+
+/*ACTIVIDAD 8*/
+#a8interior{
+	background-color: yellow;
+	border-bottom: 30px solid lightblue;
+	margin: 0px;
+}
+
+#a8extra{
+	border-bottom: 40px solid lime;
+}
+
+/*ACTIVIDAD 9*/
+.a9interior{
+	background-color: yellow;
+	border-bottom: 30px solid lightblue;
+	margin: 0px;
+}
+
+#a9extra{
+	border: 20px solid lime;
+	border-top: 0px;
+}
+
+#a9extra2{
+	border: 20px solid lime;
+	border-top: 0px;
+	border-bottom: 80px solid lime;
+}
+
+/*ACTIVIDAD 10*/
+.a10interior{
+	background-color: yellow;
+	border-bottom: 30px solid lightblue;
+	margin: 0px;
+}
+
+#a10extra{
+	border: 15px solid lime;
+	border-top: 0px;
+	border-bottom: 0px;
+	margin: 0px;
+}
+
+#a10extra2{
+	border: 30px solid lime;
+	margin: 0px;
+}
+
+#a10exterior{
+	background-color: yellow;
+	border-bottom: 30px solid lime;
+	margin: 0px;
+}

@@ -1,0 +1,73 @@
+#new_user table{
+	padding-bottom: 40px;
+}
+
+input{
+	height: 25px;
+}
+
+input[type=name], input[type=password], input[type=cp], input[type=date]{
+	padding: 10px;
+	border-radius:0px 10px 10px 0px;
+	width: 88%;
+}
+
+input[type=email], input[type=re_password], input[type=tel]{
+	padding: 10px;
+	border-radius:0px 10px 10px 0px;
+	width: 88%;
+}
+
+input[type=submit]{
+	width: 100%;
+	background-color:#2C3E50;
+	border: 0px solid red;
+	border-radius: 10px 10px 10px 10px;
+	height: 50px;
+    font-family:OdinRounded;
+	font-weight:bolder;
+	font-size:20px;
+	color:#2ECC71;
+}
+
+input[type=submit]:hover{
+	background-color:#5db3d7;
+	border: 2px solid #2C3E50;
+	color:#2C3E50;
+}
+
+input[required=yes]{
+	border: 2px solid #ffe100;
+}
+
+input:focus{
+	background-color: #5db3d7;
+	border: 2px solid #ffe100;
+}
+
+input:valid{
+	border: 2px solid #2C3E50;
+}
+
+.icon{
+	background-image: url(../images/obligatorio.png);
+	background-repeat: no-repeat;
+	background-size: 14%;
+	background-position: right 2px;
+}
+
+#bars{
+	position: relative;
+	left: 30px;
+	top: -40px;
+	width: 938px;
+	height: 20px;
+	background-color: grey;
+}
+
+#progress_bar_green{
+	position: absolute;
+	width: 34%;
+	height: 20px;
+	background-color: green;
+}

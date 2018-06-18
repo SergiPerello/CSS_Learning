@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/content.css">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo_menu.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo_contacto.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo_footer.css">
+
+	<title>CSS - Activitat 5</title>
+</head>
+<body>
+	<div id="content">
+		<div id="menu">
+
+			<div id="logo_social">
+				<ul>
+					<li><a href="https://es-es.facebook.com/"><img src="images/facebook.png"></a></li>
+					<li id="tw"><a href="https://twitter.com/?lang=es"><img src="images/twitter.png"></a></li>
+					<li><a href="https://www.instagram.com/"><img src="images/instagram.png"></a></li>
+					<li id="yt"><a href="https://www.youtube.com/"><img src="images/youtube.png"></a></li>
+				</ul>
+			</div>
+
+			<div id="img_menu">
+			</div>
+
+			<div id="opciones">
+				<ul>
+					<li><a href="principal.html">Inici</a></li>
+					<li><a href="servicios.html">Serveis</a></li>
+					<li><a href="productos.html">Productes</a></li>
+					<li><a href="imagenes.html">Imatges</a></li>
+					<li><a href="presupuestos.html">Pressupostos</a></li>
+					<li><a class="active" href="contacto.html">Contacte</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="formulario">
+			<form action="../formulario/formulario.php" method="post">
+
+				<div id="datos_personales">
+					<h3>Dades personals</h3>
+					<p>&nbsp;</p>
+					<input type="text" name="nombre" placeholder="Nom" size="40">
+					<input type="tel" name="telefono" placeholder="Telèfon" size="40">
+					<select name="provincia">
+						<option value>Provincia</option>
+						<option value="barcelona">Barcelona</option>
+						<option value="girona">Girona</option>
+						<option value="lleida">Lleida</option>
+						<option value="tarragona">Tarragona</option>
+					</select>
+					<input id="email" type="email" name="email" placeholder="Email" size="40">
+				</div>
+
+				<div id="idea">
+					<h3>La teva idea</h3>
+					<p>&nbsp;</p>
+					<textarea placeholder="Descriu breument el que has pensat"></textarea>
+				</div>
+
+				<input id="big" type="submit" name="Enviar">
+			</form>
+		</div>
+
+		<div id="footer">
+			<div id="contact_us">
+				<p>Ens pots trobar a...</p>
+				<ul>
+					<li><a>info@tucorreo.com</a></li>
+					<li><a>(703) 329-05-32</a></li>
+					<li><a>6036 Richmond hwy, Alexandria</a></li>
+				</ul>
+			</div>
+
+			<div id="newsletter">
+				<p>Vols estar atent a les nostres ofertes?</p>
+				<input type="email" name="email" placeholder="Email" size="40">
+				<input type="submit" name="Enviar">
+			</div>
+
+			<div id="maps">
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>

@@ -1,0 +1,98 @@
+#menu{
+	float: left;
+	width: 100%;
+}
+
+#logo_social{
+	background-image: url(../images/logo.png);
+	background-size: 220px;
+	background-repeat: no-repeat;
+	background-position: 10px 5px;
+	width: 100%;
+	height: 80px;
+	float: left;
+}
+
+#logo_social img{
+	width: 40px;
+}
+
+#logo_social ul{
+	list-style: none;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 78%;
+    height: 85px;
+}
+
+#logo_social li{
+	display: inline-block;
+}
+
+#logo_social li a{
+	float: left;
+	position: relative;
+	top: 25%;
+}
+
+#yt{
+	height: 110px;
+}
+
+#tw{
+	height: 95px;
+}
+
+#img_menu{
+	background-image: url(../images/imgMenu.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+	width: 100%;
+	height: 150px;
+}
+
+#opciones{
+	background-color: #222;
+	padding: 10px 0;
+	margin-top: 5px;
+	float: left;
+	width: 100%;
+	display:flex;
+    justify-content: space-around;
+}
+
+#opciones ul{
+	list-style: none;
+    width: auto;
+    display:flex;
+    justify-content: space-around;
+}
+
+#opciones li{
+	display: inline-block;
+}
+
+#opciones li a{
+	float: left;
+	font-family: 'LemonMilk';
+	font-size:16px;
+	letter-spacing: 2px;
+	text-decoration: none;
+	padding: 12px 35px;
+	margin: 0 15px;
+	background-color: #5a5a5a;
+	color: #fff;
+	outline:3px solid #fff;
+}
+
+#opciones li a:hover{
+	background-color: #45ac45;
+}
+
+#opciones li a.active{
+	background-color: #45ac45;
+}

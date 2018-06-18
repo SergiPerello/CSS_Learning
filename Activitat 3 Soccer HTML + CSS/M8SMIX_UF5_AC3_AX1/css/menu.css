@@ -1,0 +1,35 @@
+@font-face {
+    font-family: OdinRounded;
+    src: url(../fonts/OdinRounded.otf);
+}
+
+#logo:hover{
+	animation-name: logo;
+	animation-duration: 4s;
+}
+
+@keyframes logo{
+	0%{transform: rotate(0deg);}
+	10%{transform: rotate(15deg) scale(1.1);}
+	15%{transform: rotate(-15deg) scale(1.2);}
+	30%{transform: rotate(15deg) scale(1.1);}
+	35%{transform: rotate(-15deg) scale(1.2);}
+	50%{transform: rotate(0deg) scale(1);}
+}
+
+#nav td{
+	transition: transform 1s;
+}
+
+#nav td:hover{
+	transform: scale(1.2) skewX(-5deg);
+
+}
+
+#footer li{
+	transition: transform 1s;
+}
+
+#footer li:hover{
+	transform: translate(40px, 0);
+}

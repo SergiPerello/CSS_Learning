@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<title>CSS - Activitat 2 - Format caixes</title>
+</head>
+<body>
+<div class="contenido">
+	<ul>
+		<li>Sin margenes.</li>
+	</ul>
+	<div class="actividad">
+		<p id="a1interior">Interior(I)</p>
+		<p id="a1exterior">Exterior(E)</p>
+	</div>
+	<ul>
+		<li>Margen de 20 en todas las caras (20 margen superior+50 alto +20 margen inferior 100 alto capa exterior).</li>
+	</ul>
+	<div class="actividad">
+		<div id="a2extra">
+			<p id="a2interior">I</p>
+		</div>
+	</div>
+	<ul>
+		<li>Margen 25 arriba y abajo, 10 derecha izquierda. Padding 10px izquierda derecha.</li>
+	</ul>
+	<div class="actividad">
+		<div id="a3extra">
+			<p id="a3interior">I</p>
+		</div>
+	</div>
+	<ul>
+		<li>Margen 25 arriba y abajo, 10 derecha izquierda. Padding 5 px por todos lados. Vemos que por derecha e izquierda no hay cambios, puesto que la capa no tiene establecido un ancho y se adapta, pero se produce un desplazamiento de la capa hacia abajo porque el padding se acumula con el margen: 25 margen superior + 5 padding superior + 50 alto capa + 5 padding inferior + 25 margen inferior = 110, cuando el alto de la capa exterior es 100.</li>
+	</ul>
+	<div class="actividad">
+		<div id="a4extra">
+			<p id=a4interior>I</p>
+		</div>
+	</div>
+	<ul>
+		<li>Margen 25 arriba y abajo, 10 derecha izquierda. Padding 20 por todos lados. Se desborda por abajo porque el padding y el margen se suman: 25 margen superior + 20 padding superior + 50 capa + 20 padding inferior + 25 margen inferior = 140 (aunque no vemos los 25 del ultimo margen porque no se visualiza).</li>
+	</ul>
+	<div class="actividad">
+		<div id="a5extra">
+			<p id=a5interior>I</p>
+		</div>
+	</div>
+	<ul>
+		<li>Margen derecho -20. Al no haber indicado ancho en la capa interior esta adapta su ancho.</li>
+	</ul>
+	<div class="actividad">
+		<div id="a6extra">
+			<p id=a6interior>I</p>
+		</div>
+	</div>
+	<ul>
+		<li>Margen derecho -20 e izquierda 20.</li>
+	</ul>
+	<div class="actividad">
+		<div id="a7extra">
+			<p id="a7interior">I</p>
+		</div>
+	</div>
+	<ul>
+		<li>Margen inferior -20.</li>
+	</ul>
+	<div class="actividad">
+		<div id="a8extra">
+			<p id=a8interior>I</p>
+		</div>
+	</div>
+	<ul>
+		<li>Dos cuadros interiores con margen 20 por todos lados (Utilizaremos una caja exterior más grande). Lo interesante es que el margen entre las dos capas interiores no se suma,se coge el mayor.</li>
+	</ul>
+	<div class="actividad">
+		<div id="a9extra">
+			<p class="a9interior">I</p>
+		</div>
+		<div id="a9extra2">
+			<p class="a9interior">I</p>
+		</div>
+	</div>
+	<ul>
+		<li>Dos cuadros interiores con margen 10 por todos lados el primero y 30 por todos lados el segundo.</li>
+	</ul>
+	<div class="actividad">
+		<div id="a10extra">
+			<p class="a10interior">I</p>
+		</div>
+		<div id="a10extra2">
+			<p class="a10interior">I</p>
+		</div>
+		<div>
+			<p id="a10exterior">E</p>
+		</div>
+	</div>
+</div>
+</body>
+</html>

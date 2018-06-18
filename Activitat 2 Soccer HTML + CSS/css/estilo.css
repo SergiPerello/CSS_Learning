@@ -1,0 +1,349 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	width: 900px;
+	font-family: Verdana;
+	background-image: url(../images/background.png);
+	background-color: #DFDCDC;
+	margin:auto;
+}
+
+/*1a PARTE DEL MENU*/
+#menu1{
+	float: left;
+	width: 897px;
+	background-color: #34495E;
+	padding: 4px 0;
+}
+
+#menu1 a{
+	color: #2EC366;
+	font-size: 150%;
+}
+
+#menu1 span{
+	color: white;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+#logo{
+	float: left;
+	height: 48px;
+	position: relative;
+}
+
+#user{
+	float: right;
+	height: 40px;
+	text-align: right;
+	position: relative;
+	top: 5px;
+	right: 5px;
+}
+
+/*2a PARTE DEL MENU*/
+#menu2{
+	list-style: none;
+	width: 898px;
+	padding:0px;
+	margin:0px;
+}
+
+#menu2 li{
+	margin:0px;
+	padding:0px;
+	float:left;
+}
+
+#menu2 li a{
+	display:block;
+    width:159.6px;
+    padding:70px 10px;
+    text-decoration:none;
+    color:#666;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+#menu2 li a.plantilla{
+    background-image:url(../images/plantilla.png);
+    background-size: 85px;
+}
+
+#menu2 li a.estrategia{
+    background-image:url(../images/estrategia.png);
+    background-size: 100px;
+}
+
+#menu2 li a.entrenamiento{
+    background-image:url(../images/entrenamiento.png);
+    background-size: 100px;
+}
+
+#menu2 li a.traspasos{
+    background-image:url(../images/traspasos.png);
+    background-size: 100px;
+}
+
+#menu2 li a.finanzas{
+    background-image:url(../images/finanzas.png);
+    background-size: 100px;
+}
+
+/*2a PARTE DEL MENU HOVER*/
+#menu2 li a.plantilla:hover{
+    background-image:url(../images/plantilla_hover.png);
+    background-size: 85px;
+}
+
+#menu2 li a.estrategia:hover{
+    background-image:url(../images/estrategia_hover.png);
+    background-size: 100px;
+}
+
+#menu2 li a.entrenamiento:hover{
+    background-image:url(../images/entrenamiento_hover.png);
+    background-size: 100px;
+}
+
+#menu2 li a.traspasos:hover{
+    background-image:url(../images/traspasos_hover.png);
+    background-size: 100px;
+}
+
+#menu2 li a.finanzas:hover{
+    background-image:url(../images/finanzas_hover.png);
+    background-size: 100px;
+}
+
+/*3a PARTE DEL MENU*/
+#menu3{
+	list-style: none;
+	width: 900px;
+	padding:0px;
+	margin:0px;
+}
+
+#menu3 li{
+	display: inline;
+	margin:0px;
+	padding:0px;
+	float:left;
+}
+
+#menu3 li a{
+	display:block;
+    width:159.5px;
+    padding:15px 10px;
+    text-decoration:none;
+    text-align:center;
+    color:#fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/*COLORES MENU*/
+.plantilla{
+	background-color: #5CB4D6;
+}
+
+.estrategia{
+	background-color:#3498DB;
+}
+
+.entrenamiento{
+	background-color:#2980B9;
+}
+
+.traspasos{
+	background-color:#34495E;
+}
+
+.finanzas{
+	background-color:#2C3E50;
+}
+
+/*FICHA DEL JUGADOR*/
+#ficha_jugador{
+	width: 78%;
+	height: 100%;
+	background-color: #3D79AD;
+	border-collapse: separate;
+	border-spacing: 18px;
+	margin: 10px auto 60px auto;
+	position: relative;
+	top: 30px;
+}
+
+#ficha_jugador th{
+	font-size: 180%;
+	padding: 25px;
+	color:#fff;
+	background-color: #2c3e50;
+}
+
+#foto{
+	background-color: #2c3e50;
+	color: #03bf00;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px;
+	width: 100px;
+}
+
+td.question{
+	background-color: #2c3e50;
+	color: #03bf00;
+	font-weight: bold;
+	padding-left: 12px;
+}
+
+td.answer{
+	background-color: #fff;
+	border-spacing: 12px;
+	padding-left: 12px;
+}
+
+#valoracion_jugador{
+	font-size: 40px;
+	color: #33404d;
+}
+
+
+/*INFORMACIÓN Y REDES SOCIALES*/
+#informacion{
+	width: 100%;
+	background-color: #545651;
+	font-size: 14px;
+}
+
+#informacion li{
+	color: #fff;
+	list-style-type: circle;
+}
+
+#informacion li a{
+	color:#fff;
+}
+
+#partition1{
+	width: 80px;
+}
+
+#partition2{
+	width: 200px;
+}
+
+#partition3{
+	width: 250px;
+	text-align: center;
+}
+
+#partition3 a{
+	padding: 0 10px;
+}
+
+#partition4{
+	width: 300px;
+	text-align: center;
+}
+
+#partition5{
+	text-align: right;
+	color: #fff;
+	font-size: 8px;
+	padding: 10px 8px 10px 0;
+}
+
+/*VALORACION DEL JUGADOR*/
+#valoraciones{
+	border-collapse: separate;
+	border-spacing: 25px;
+	margin: 40px auto 10px auto;
+	background-color: #3183ba;
+	width: 78%;
+}
+
+.filas_skills{
+	text-align: right;
+	font-size: 14px;
+	color: white;
+	margin: 16px 10px 16px 0;
+}
+
+#ataque{
+	width:84%;
+	background-color:#2ecc71;
+}
+
+#defensa{
+	width:52%;
+	background-color:#e67e22;
+}
+
+#pase{
+	width:98%;
+	background-color:#2ecc71;
+}
+
+#disparo{
+	width:81%;
+	background-color:#2ecc71;
+}
+
+#regate{
+	width:92%;
+	background-color:#2ecc71;
+}
+
+#fuerza{
+	width:56%;
+	background-color:#e67e22;
+}
+
+/*FLECHA DE VOLVER*/
+#return{
+	float: right;
+}
+/*IMAGENES*/
+img.logo{
+	width: 450px;
+}
+
+img.user{
+	width: 25px;
+	vertical-align: middle;
+}
+
+img.menu{
+	height: 140px;
+}
+
+img.jugador{
+	width: 140px;
+}
+
+img.bandera{
+	width: 35px;
+}
+
+img.valoraciones{
+	width: 20px;
+}
+
+img.social_networks{
+	height: 30px;
+}
+
+img.fifa{
+	height: 110px;
+}
+
+img.pegi{
+	height: 100px;
+}
+
+img.subir{
+	width: 20px;
+}

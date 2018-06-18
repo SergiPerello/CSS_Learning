@@ -1,0 +1,64 @@
+td{
+	border: 0px solid red;
+}
+
+h3{
+	margin: 0 0 0 0;
+}
+
+p{
+	margin: 0 0 20px 10px;
+}
+
+div#text{
+	overflow: scroll;
+	width: 95.5%;
+	height: 400px;
+	color: #000;
+	background-color: #fff;
+	font-weight: normal;
+	border: 2px solid #2C3E50;
+	padding: 20px;
+}
+
+#checkbox{
+	padding-left: 10px;
+}
+
+input[type=checkbox]{
+	margin-right: 6px;
+}
+
+input[type=submit]{
+	width: 100%;
+	background-color:#2C3E50;
+	border: 0px solid red;
+	border-radius: 10px 10px 10px 10px;
+	height: 50px;
+    font-family:OdinRounded;
+	font-weight:bolder;
+	font-size:20px;
+	color:#2ECC71;
+}
+
+input[type=submit]:hover{
+	background-color:#5db3d7;
+	border: 2px solid #2C3E50;
+	color:#2C3E50;
+}
+
+#bars{
+	position: relative;
+	left: 30px;
+	top: -20px;
+	width: 938px;
+	height: 20px;
+	background-color: grey;
+}
+
+#progress_bar_green{
+	position: absolute;
+	width: 100%;
+	height: 20px;
+	background-color: green;
+}

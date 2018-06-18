@@ -1,0 +1,179 @@
+
+#text_escola{
+	color: white;
+	vertical-align: center;
+	position: relative;
+	top: -10px;
+}
+
+#text_mataro{
+	color: white;
+	vertical-align: center;
+	position: relative;
+	top: -10px;
+}
+
+#content{
+	width: 900px;
+	margin: auto;
+	background: linear-gradient(#99AEF6, white 40%);
+	background-repeat: no-repeat;
+}
+
+#header{
+	float: right;
+	width: 100%;
+	border: 0px;
+	background-image: url(imagenes/cabecera.png);
+	background-repeat: no-repeat;
+	margin-bottom: 10px;
+}
+
+#identificacion{
+	float: left;
+	width: 300px;
+	height: 100px;
+	margin-left: 10px;
+	font-family: Verdana;
+}
+#search{
+	float: right;
+	width: 250px;
+	height: 100px;
+	padding-top: 5px;
+	color: white;
+}
+
+#menu{
+	float: right;
+	width: 896px;
+	height: 30px;
+	border: 2px solid white;
+	background-color: #C8D4D1;
+	margin-bottom: 4px;
+}
+
+#menu ul{
+	list-style: none;
+	margin:auto;
+	display: block;
+}
+
+#menu ul li{
+	display: inline;
+	float: left;
+	height: 25px;
+	width: 120px;
+	font-family: Verdana;
+	font-size: 18px;
+
+}
+
+#menu ul li a{
+	text-decoration: none;
+	padding: 20px;
+	color: #DC8E0E;
+	position:relative;
+    top:0px;
+}
+
+#menu ul li a:hover{
+	background-image: url(imagenes/orange_bullet.gif);
+	background-repeat: no-repeat;
+	box-shadow: 5px #F9FC8D;
+	position:relative;
+    background-position: left;
+}
+
+#lateral_izq{
+	float: left;
+	position: relative;
+	top: 2px;
+	left: 2px;
+	width: 26%;
+	height: 99%;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#lateral_izq h3{
+	text-align: center;
+	background-image: url(imagenes/ftitulos.gif);
+	margin: 0;
+	padding: 10px;
+	font-size: 150%;
+	font-style: bold;
+}
+
+.lateral_izq_estilo{
+	box-shadow: -2px -2px 1px 0px #565656, -1px 1px 1px 0px #565656;
+	margin: 2px;
+	background-color: #BFCFF7;
+	padding-top: 20px;
+	padding-right: 4px;
+	padding-left: 4px;
+	padding-bottom: 2px;
+}
+
+#central{
+	float: left;
+	width: 43%;
+	clear: none;
+	position: relative;
+	margin-left: 12px;
+	margin-right: 5px;
+}
+
+.articulos{
+	background-image: url(imagenes/farticulo.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 20px;
+}
+
+.articulos h2{
+	background-color: #BFCFFD;
+	color: #600;
+	margin: 0px;
+	position: relative;
+	top: 3px;
+	border: 8px solid transparent;
+	text-align: center;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+.articulos img{
+	float: left;
+	margin: 5px;
+	margin-top: 20px;
+}
+
+#lateral_der{
+	float: right;
+	width: 26%;
+	margin: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#lateral_der h2{
+	color: white;
+	text-align: center;
+	text-decoration: underline;
+}
+
+#footer{
+	width: 900px;
+	clear: both;
+	text-align: center;
+	background-color: #FDF4B5;
+	position: fixed;
+	bottom: 0px;
+	border-top: 1px solid blue;
+	border-bottom: 1px solid blue;
+	padding: 4px;
+}

@@ -1,0 +1,79 @@
+.content td{
+	border:0px solid red;
+}
+
+input{
+	height: 25px;
+}
+
+input[type=text]{
+	padding: 10px;
+	border-radius:0px 10px 10px 0px;
+	width: 220px;
+}
+
+input[type=range]{
+	width: 100px;
+	margin: 0 8px;
+	position: relative;
+	top: 7px;
+}
+
+#file{
+	background-color: white;
+	padding: 0 15px;
+	color: #000;
+}
+
+input[type=Color]{
+	width: 210px;
+	height: 30px;
+	padding: 10px;
+	border-radius: 0 10px 10px 0;
+}
+
+select{
+	padding: 10px;
+	border-radius:0px 10px 10px 0px;
+	width: 242.5px;
+	height: 46.99px;
+}
+
+input[type=submit]{
+	width: 100%;
+	background-color:#2C3E50;
+	border: 0px solid red;
+	border-radius: 10px 10px 10px 10px;
+	height: 50px;
+    font-family:OdinRounded;
+	font-weight:bolder;
+	font-size:20px;
+	color:#2ECC71;
+}
+
+input[type=submit]:hover{
+	background-color:#5db3d7;
+	border: 2px solid #2C3E50;
+	color:#2C3E50;
+}
+
+input[type=radio]{
+	position: relative;
+	top: 6px;
+}
+
+#bars{
+	position: relative;
+	left: 30px;
+	top: -20px;
+	width: 938px;
+	height: 20px;
+	background-color: grey;
+}
+
+#progress_bar_green{
+	position: absolute;
+	width: 66%;
+	height: 20px;
+	background-color: green;
+}
